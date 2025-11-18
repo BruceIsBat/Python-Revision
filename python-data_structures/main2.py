@@ -52,11 +52,20 @@ print("Best score: {}".format(best_key))
 
 best_key = best_score(None)
 print("Best score: {}".format(best_key))
-'''
+
 multiply_list_map = __import__('more_data_structures').multiply_list_map
 
 my_list = [1, 2, 3, 4, 6]
 new_list = multiply_list_map(my_list, 4)
 print(new_list)
 print(my_list)
-
+'''
+n = int(input("Enter n x n: "))
+board = []
+for i in range(n):
+    board.append([])
+    print()
+for i in range(n):
+    for r in board:
+        r.append(' ')
+print(board)
